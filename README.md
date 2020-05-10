@@ -31,4 +31,5 @@ I used a pretrained 50D glove vector and a doube layered LSTM followed by a soft
 The model was trained for 20 epochs and I obtained the following result:  
 * **Train Accuracy** 98.51%  
 * **Val Accuracy**   98.01%  
+  
 ![Accuracy](/Images/Accuracy.png)  
