@@ -10,6 +10,7 @@ This project was created as and assignment for an internship. It predicts the va
 
 # Dataset
 * The train-dev set consisted of 82657 examples
-![TrainData](/images/TrainData.png)
+
+![TrainData](/Images/TrainData.png)
 
 * The test set consisted of 20665 examples
