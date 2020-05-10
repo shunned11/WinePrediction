@@ -18,6 +18,8 @@ This project was created as and assignment for an internship. It predicts the va
 20% of the Train set was used as a dev set.  
 The CSV files are availabe in the Data Folder  
 
-# Model Description
+# Model Description  
+  
 I used a pretrained 50D glove vector and a doube layered LSTM followed by a softmax dense unit consisting of 28 units to classify in the 28 different variety of wine available
-![ModelSummary](/Images/Model.png)  
+![ModelSummary](/Images/Model.png)
+![ModelDescription](/Images/ModelDescription.png)
