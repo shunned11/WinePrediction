@@ -9,6 +9,6 @@ This project was created as and assignment for an internship. It predicts the va
 * Tensorflow 2.1.0
 
 # Dataset
-The train-dev set consisted of 82657 examples
+*The train-dev set consisted of 82657 examples
 
-The test set consisted of 20665 examples
+*The test set consisted of 20665 examples
