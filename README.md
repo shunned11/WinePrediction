@@ -33,3 +33,5 @@ The model was trained for 20 epochs and I obtained the following result:
 * **Val Accuracy**     98.01%  
   
 ![Accuracy](/Images/Accuracy.png)  
+  
+The model was used to predict the variety of wine on the test set and a csv sheet updated with the results is avialble in the Data Folder as "Updated Test.csv"  
