@@ -14,3 +14,8 @@ This project was created as and assignment for an internship. It predicts the va
 ![TrainData](/Images/TrainData.png)
 
 * The test set consisted of 20665 examples
+![TestData](/Images/TestData.png)
+
+20% of the Train set was used as a dev set.
+The CSV files are availabe in the Data Folder
+
