@@ -37,6 +37,7 @@ The model was used to predict the variety of wine on the test set and a csv shee
 
 # Visualisation and Insights
 
-### Confusion Matrix  
+### Confusion Matrix 
+A confusion matrix shows how often an example whose label is one class ("actual" class) is mislabeled by the algorithm with a different class ("predicted" class)  
 The confusion mastrix didn't tell me much as the accuracy of the model was pretty high
 ![Confusion](/Images/cm.png) 
