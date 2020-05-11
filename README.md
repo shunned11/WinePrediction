@@ -1,5 +1,5 @@
 # Introduction
-This project was created as and assignment for an internship. It predicts the variety of wine based on text reviews
+This project was created as an assignment for an internship. It predicts the variety of wine based on text reviews
 
 # Dependecies
 * Python 3.7.7
