@@ -37,6 +37,6 @@ The model was used to predict the variety of wine on the test set and a csv shee
 
 # Visualisation and Insights
 
-###Confusion Matrix  
+### Confusion Matrix  
 The confusion mastrix didn't tell me much as the accuracy of the model was pretty high
 ![Confusion](/Images/cm.png) 
