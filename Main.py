@@ -4,6 +4,7 @@ import numpy as np
 from Model import le, X_train_pad
 from tensorflow.keras.models import model_from_json
 import Visualization as vis
+from collections import defaultdict
 
 json_file = open('Model/model.json', 'r')
 loaded_model_json = json_file.read()
@@ -20,9 +21,11 @@ Y_test=le.inverse_transform(Y_test)
 Y_train_pred=loaded_model.predict_classes(X_train_pad)
 Y_train_real=pd.read_csv("Data/train.csv")["variety"].values
 Y_train_real=le.fit_transform(Y_train_real)
+df=pd.read_csv("Data/train.csv")
 
-
+vis.insights(Y_train_real,df)
 vis.plot_cm(Y_train_real,Y_train_pred)
-# df=pd.read_csv("test.csv")
-# df["variety"]=Y_test
-# df.to_csv("Updated Test.csv",index=False)
+
+df=pd.read_csv("test.csv")
+df["variety"]=Y_test
+df.to_csv("Updated Test.csv",index=False)
