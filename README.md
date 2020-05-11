@@ -39,5 +39,13 @@ The model was used to predict the variety of wine on the test set and a csv shee
 
 ### Confusion Matrix 
 A confusion matrix shows how often an example whose label is one class ("actual" class) is mislabeled by the algorithm with a different class ("predicted" class)  
-The confusion mastrix didn't tell me much as the accuracy of the model was pretty high
+The confusion mastrix didn't tell much as the accuracy of the model was pretty high
 ![Confusion](/Images/cm.png) 
+
+### Insights
+* The wine that had the most reviews was Pinot Noir(10587) and thus it maybe assumed that it is the most bought variety of wine  
+* The wine that had the least reviews was Gamay(816) and thus it may be assumed that it is the least bought variety of wine 
+* The wine with the maximium average rating is Nebbilo and thus it maybe assumed that it is the most widely liked variety of wine
+* The wine with the minimum average rating is Pinot Grigio and thus it maybe assumed that it is the least liked variety of wine
+* The wine with the maximum average price is Champagne Blend
+* The wine with the minimum average price is Portugese White
