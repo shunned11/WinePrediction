@@ -11,8 +11,8 @@ import Utilities as ut
 
 n=28
 
-train_data=pd.read_csv("train.csv")
-test_data=pd.read_csv("test.csv")
+train_data=pd.read_csv("Data/train.csv")
+test_data=pd.read_csv("Data/test.csv")
 
 X_train=train_data["review_description"].values
 Y_train=train_data["variety"].values
